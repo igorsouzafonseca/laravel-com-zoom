@@ -29,26 +29,6 @@ class ZoomController
     }
 
     public function index(){
-        $valores = array(
-            'https://api.zoom.us/v2/users/me/meetings',
-            'https://api.zoom.us/v2/users/clinicasfinanceiras01@gmail.com/meetings',
-            'https://api.zoom.us/v2/users/clinicasfinanceiras02@gmail.com/meetings',
-            'https://api.zoom.us/v2/users/clinicasfinanceiras03@gmail.com/meetings',
-            'https://api.zoom.us/v2/users/clinicasfinanceiras04@gmail.com/meetings',
-            'https://api.zoom.us/v2/users/clinicasfinanceiras05@gmail.com/meetings',
-            'https://api.zoom.us/v2/users/clinicasfinanceiras06@gmail.com/meetings',
-            'https://api.zoom.us/v2/users/clinicasfinanceiras07@gmail.com/meetings',
-        );
-        $teste = array(
-            'https://api.zoom.us/v2/users/me/meetings',
-            'https://api.zoom.us/v2/users/clinicasfinanceiras01@gmail.com/meetings',
-            'https://api.zoom.us/v2/users/clinicasfinanceiras02@gmail.com/meetings',
-            'https://api.zoom.us/v2/users/clinicasfinanceiras03@gmail.com/meetings',
-            'https://api.zoom.us/v2/users/clinicasfinanceiras07@gmail.com/meetings',
-        );
-        $diff = array_diff($valores,$teste);
-        $diff = current($diff);
-        //dd($diff);
         return view('index');
     }
 
