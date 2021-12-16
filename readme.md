@@ -13,7 +13,8 @@ Criar conta no site do Zoom https://zoom.us/signup
 - Ao estar logado no site do Zoom, procure pela opção <b>ADMINISTRADOR -> AVANÇADO -> APP MARKETPLACE</b>, que fica do lado esquerdo da tela e clique;
 - Na nova página, clique em DEVELOP e selecione BUILD APP;
 - Em JWT, clique em CREATE;
-- Prencha as informações solicitadas até que seja gerado as credenciais (API KEY e API SECRET).
+- Prencha as informações solicitadas até que seja gerado as credenciais (API KEY e API SECRET);
+- Avance até que o aplicativo criado dentro Zoom seja ativado.
 <hr>
 <b>4º passo:</b>
 
